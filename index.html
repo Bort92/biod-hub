@@ -22,17 +22,18 @@
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body {
+html, body {
     font-family: 'DM Sans', sans-serif;
     background: var(--bg);
     color: var(--text);
-    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
   }
 
   /* HEADER */
   header {
     background: var(--navy);
-    padding: 32px 48px 28px;
+    padding: 16px 40px 14px;
     position: relative;
     overflow: hidden;
   }
@@ -123,7 +124,7 @@
   .intro-strip {
     background: var(--cream);
     border-bottom: 1px solid var(--border);
-    padding: 20px 48px;
+    padding: 10px 40px;
   }
 
   .intro-strip-inner {
@@ -153,7 +154,7 @@
   main {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 40px 48px 60px;
+    padding: 16px 40px 10px;
   }
 
   .section-label {
@@ -179,8 +180,8 @@
   .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-    margin-bottom: 48px;
+    gap: 12px;
+    margin-bottom: 16px;
   }
 
   .card {
@@ -217,7 +218,7 @@
   }
 
   .card-body {
-    padding: 24px 24px 20px;
+    padding: 14px 16px 10px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -258,7 +259,7 @@
 
   .card-footer {
     border-top: 1px solid var(--border);
-    padding: 14px 24px;
+    padding: 8px 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -398,7 +399,7 @@
   <div class="card-grid">
 
     <!-- Priority Habitats -->
-    <a class="card theme-green" href="#" title="Open Priority Habitats Pressure Management Dashboard">
+    <a class="card theme-green" href="https://experience.arcgis.com/experience/a76cd45136564203b8fa66c94112ce37" target="_blank" title="Open Priority Habitats Pressure Management Dashboard">
       <div class="card-banner"></div>
       <div class="card-body">
         <div class="card-icon">
